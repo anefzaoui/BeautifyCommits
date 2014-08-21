@@ -1,0 +1,51 @@
+#commit-input{
+  margin-bottom: 30px;
+}
+#commit-input-content {
+  width: 700px;
+  margin: 10px auto;
+  height: 100px;
+  border: 1px solid rgb(45, 45, 45);
+}
+#process-commit-content {
+  padding: 7px 12px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #333;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.898);
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #EEE;
+  background-image: linear-gradient(#FCFCFC, #EEE);
+  background-repeat: repeat-x;
+  border: 1px solid #D5D5D5;
+  border-radius: 3px;
+  -moz-user-select: none;
+}
+#line {
+  padding: 1px 10px;
+  line-height: 14px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+  color: #333;
+  white-space: pre;
+  overflow: visible;
+}
+#line:hover {
+  background-color: #F8EEC7;
+}
+.added {
+  background-color: #DFD;
+}
+.removed {
+  background-color: #FDD;
+}
+.info {
+  background-color: #F8FAFD;
+}
+.none {
+  background-color: #FFF;
+}
+.bold {
+  font-weight: bold;
+}
